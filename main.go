@@ -85,7 +85,7 @@ func main() {
 	} else {
 		//err = SaveJsonFile("./json/config.json", &Config)
 		if Config.Port <= 0 || Config.Port > 65535 {
-			Config.Port = 2802
+			Config.Port = 8002
 		}
 	}
 
